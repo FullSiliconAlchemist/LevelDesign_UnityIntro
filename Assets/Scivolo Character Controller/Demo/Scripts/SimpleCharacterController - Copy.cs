@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace MenteBacata.ScivoloCharacterControllerDemo
 {
-    public class SimpleCharacterController : MonoBehaviour
+    public class SimpleCharacterControllerPlayer2 : MonoBehaviour
     {
         public float moveSpeed = 5f;
 
@@ -48,8 +48,14 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
 
         private void Update()
         {
-            float horizontalInput = Input.GetAxis("Horizontal");
-            float verticalInput = Input.GetAxis("Vertical");
+            float horizontalInput = 0.0f;
+            float verticalInput = 0.0f;
+
+            if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D)))
+            {
+                horizontalInput = Input.GetAxis("Horizontal");
+                verticalInput = Input.GetAxis("Vertical");
+            }
 
             Vector3 moveDirection = CameraRelativeVectorFromInput(horizontalInput, verticalInput);
 

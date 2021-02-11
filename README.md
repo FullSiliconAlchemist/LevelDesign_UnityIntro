@@ -6,11 +6,13 @@ This game is a third-person physics-based volleyball/Ball Keep-Up game, pretty s
 
 The Goal of the game is to play Ball Keep-Up with your friend
 
-Things I want to explore:
+Things I want to explore in this first prototype:
 
 Is the game and objective clear?
 
 Is the game easy to play/understand?
 
-Does a simple game mechanic such as moving a player around and activating power-ups still provide an entertainment factor?
+Does a simple game mechanic still provide an entertainment factor?
+
+What is the overall difficulty level given to this game without any power-ups or game-intiated help?
 

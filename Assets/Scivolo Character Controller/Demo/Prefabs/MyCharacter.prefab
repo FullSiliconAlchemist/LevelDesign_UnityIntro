@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 2573877700867721430}
   - component: {fileID: 2573877700867721428}
   - component: {fileID: 2573877700867721433}
-  - component: {fileID: 2573877700867721432}
+  - component: {fileID: 104378948086039688}
   m_Layer: 0
   m_Name: MyCharacter
   m_TagString: Untagged
@@ -357,7 +357,7 @@ MonoBehaviour:
   tolerance: 0.05
   raySpacing: 0.6
   maxRayDistance: 1
---- !u!114 &2573877700867721432
+--- !u!114 &104378948086039688
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -369,13 +369,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74d295e2a71412d4f9f68727410e7304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
-  jumpSpeed: 12
-  rotationSpeed: 900
+  moveSpeed: 5
+  jumpSpeed: 8
+  rotationSpeed: 720
   gravity: -25
-  mover: {fileID: 2573877700867721428}
-  groundDetector: {fileID: 2573877700867721433}
-  groundedIndicator: {fileID: 2573877700600175660}
+  mover: {fileID: 0}
+  groundDetector: {fileID: 0}
+  groundedIndicator: {fileID: 0}
 --- !u!1 &2573877701323496191
 GameObject:
   m_ObjectHideFlags: 0
